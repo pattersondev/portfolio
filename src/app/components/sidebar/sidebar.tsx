@@ -2,7 +2,7 @@ import React from 'react';
 import { FaHome, FaFileAlt, FaProjectDiagram, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { PiBooks } from "react-icons/pi";
 import { CgProfile } from "react-icons/cg";
-import profilePic from '../assets/prof_pic-transformed.jpeg'
+import profilePic from '../../assets/prof_pic-transformed.jpeg'
 import styles from './Sidebar.module.css';
 
 export default function Sidebar() {
