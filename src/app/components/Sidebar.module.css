@@ -1,0 +1,60 @@
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 30px;
+}
+
+.menuItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    color: lightgray;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease, color 0.3s ease; */
+}
+
+.profilePic {
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+}
+
+.menuItem:hover {
+    color: pink;
+    /* Change text color on hover */
+}
+
+.menuItem:hover .icon {
+    transform: scale(1.2);
+    /* Enlarge the icon slightly */
+    color: pink;
+    /* Change icon color on hover */
+}
+
+.icon {
+    margin-right: 10px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.label {
+    font-size: 14px;
+    padding-left: .5rem;
+    padding-top: .1rem;
+}
+
+.socialIcons {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4rem;
+    width: 100%;
+}
+
+.profilePicWrapper {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
