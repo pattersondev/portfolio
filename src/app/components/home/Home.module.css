@@ -1,4 +1,4 @@
-.test {
+.container {
     align-items: center;
     color: white;
     padding-left: 6rem;
@@ -15,4 +15,8 @@
     flex-direction: column;
     gap: 2rem;
     width: 50%;
+}
+
+.keywords {
+    color: #bc6d6d;
 }
