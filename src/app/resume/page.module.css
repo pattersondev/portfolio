@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    align-items: center;
+    color: white;
+    padding-left: 6rem;
+    padding-top: 4rem;
+    width: 100vh;
+}
+
+.header {
+    padding-bottom: 2rem;
+}
+
+.menuItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: lightgray;
+    /* transition: background-color 0.3s ease, color 0.3s ease; */
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jmuLogo {
+    max-width: 150px;
+    /* Adjust size as needed */
+    margin-left: auto;
+    /* Push the logo to the far right */
+}

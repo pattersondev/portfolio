@@ -20,3 +20,14 @@
 .keywords {
     color: #bc6d6d;
 }
+
+.recentProjectsContainer {
+    padding-left: 6rem;
+    padding-top: 2rem;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
