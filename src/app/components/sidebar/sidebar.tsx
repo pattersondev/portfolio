@@ -13,14 +13,14 @@ export default function Sidebar() {
             <div className={styles.profilePicWrapper}>
                 <img src={profilePic.src} alt="" className={styles.profilePic} />
             </div>
-            <div className={styles.menuItem}>
-                <Link href={'/'}>
+            <div>
+                <Link href={'/'} className={styles.menuItem}>
                     <FaHome size={20} className={styles.icon} />
                     <span className={styles.label}>Home</span>
                 </Link>
             </div>
-            <div className={styles.menuItem}>
-                <Link href={'/resume'}>
+            <div>
+                <Link href={'/resume'} className={styles.menuItem}>
                     <CgProfile size={20} className={styles.icon} />
                     <span className={styles.label}>Resume</span>
                 </Link>
